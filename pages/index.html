@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astra</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/styles/index.css">
+    <link href="https://db.onlinewebfonts.com/c/4a62f8c2bd387334565db30ee496cfdc?family=RoadRadio-Bold" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg mt-2">
+            <div class="container-fluid d-flex justify-content-between">
+              <div class="logo d-flex order-lg-0">
+                <a class="navbar-brand mx-auto" href="#">
+                    <img src="../public/images/logo.jpg" alt="Logo" >
+                </a>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                      data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
+                      aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center w-100" id="navbarNavAltMarkup">
+                <div class="navbar-nav d-flex justify-content-evenly w-100">
+                  <div>
+                    <a class="nav-link text-center" aria-current="page" href="#">Главная</a>
+                  </div>
+                  <div>
+                    <a class="nav-link text-center" href="#advantagesSection">Преимущества</a>
+                  </div>
+                  <div>
+                    <a class="nav-link text-center" href="#howCryptoWorks">Как зарабатывать</a>
+                  </div>
+                  <div>
+                    <a class="nav-link text-center" href="#roadmap">ROADMAP</a>
+                  </div>
+                  <div class="button d-flex justify-content-evenly">
+                    <button class="navbar-btn for-investors">
+                        ДЛЯ ИНВЕСТОРОВ
+                    </button>
+                    <button class="navbar-btn download">
+                        УСТАНОВИТЬ
+                      </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <section class="main container mt-2">
+        <div class="row align-items-center">
+            <div class="col-md-7 intro-texts mt-5">
+                <h1>Каждая поездка - <br> инвестиция в ваш <br> комфорт и безопасность</h1>
+                <p>Путешествуйте с уверенностью, зная, что каждая поездка с ASTRA гарантирует ваш комфорт и безопасность.</p>
+                <button class="navbar-btn letsgo">
+                  Поехали
+                  <svg class="mx-2" width="18" height="11" viewBox="0 0 25 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.7946 5.70996C25.0565 5.44808 25.0565 5.02348 24.7946 4.7616L20.527 0.493947C20.2651 0.232063 19.8405 0.232063 19.5786 0.493947C19.3167 0.755831 19.3167 1.18043 19.5786 1.44231L23.3721 5.23578L19.5786 9.02924C19.3167 9.29113 19.3167 9.71573 19.5786 9.97761C19.8405 10.2395 20.2651 10.2395 20.527 9.97761L24.7946 5.70996ZM0.178955 5.90638L24.3204 5.90638V4.56518L0.178955 4.56518L0.178955 5.90638Z" fill="white"/>
+                  </svg>
+                </button>
+            </div>
+            <div class="col-md-5 images">
+                <div class="img-block">
+                  <img src="../public/images/iphone.png" class="iphone-img" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="road-line"></div>
+    <section class="comfort-and-security-section" id="advantagesSection">
+      <div class="container mt-5">
+          <h1 class="title text-center mt-4 mb-5">Преимущества</h1>
+          <div class="row align-items-center">
+              <div class="col-12 col-md-5 order-2 order-md-1 text-center">
+                  <img src="../public/images/car-inside.png" class="img-fluid car" alt="Car Interior">
+              </div>
+              <div class="col-12 col-md-7 order-1 order-md-2">
+                  <h4 class="text-md-start text-center">Управляйте своими поездками!</h4>
+                  <h2 class="text-md-start text-center">Ваш личный агент бронирования мест!</h2>
+                  <div class="icon-text d-flex align-items-center justify-content-md-start justify-content-center mt-3 mb-4">
+                      <svg width="45" height="45" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="32.8083" cy="32.5811" r="32.1886" fill="#242EF0"/>
+                          <path d="M32.8084 19.1692L31.0629 26.1514C30.7222 27.5139 30.5519 28.1951 30.1972 28.7494C29.8835 29.2398 29.4671 29.6562 28.9767 29.9699C28.4224 30.3246 27.7412 30.4949 26.3787 30.8355L19.3965 32.5811L26.3787 34.3267C27.7412 34.6673 28.4224 34.8376 28.9767 35.1923C29.4671 35.506 29.8835 35.9224 30.1972 36.4128C30.5519 36.9671 30.7222 37.6483 31.0629 39.0108L32.8084 45.993L34.554 39.0108C34.8946 37.6483 35.0649 36.9671 35.4196 36.4128C35.7333 35.9224 36.1498 35.506 36.6401 35.1923C37.1944 34.8376 37.8756 34.6673 39.2381 34.3267L46.2203 32.5811L39.2381 30.8355C37.8756 30.4949 37.1944 30.3246 36.6401 29.9699C36.1498 29.6562 35.7333 29.2398 35.4196 28.7494C35.0649 28.1951 34.8946 27.5139 34.554 26.1514L32.8084 19.1692Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      <h3 class="ms-3">Комфорт и безопасность</h3>
+                  </div>
+                  <p class="text-md-start text-center">Просто введите желаемое место назначения в наше приложение, выберите опцию "Забронировать", и мы сделаем все остальное за вас. Это быстро, удобно и безопасно - идеальное решение для вашего следующего путешествия.</p>
+              </div>
+          </div>
+      </div>
+    </section>
+    <section class="tracking-section">
+      <div class="container mt-5">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 order-1 order-md-1">
+            <h4 class="text-md-start text-center">Отслеживаите свои поездки</h4>
+            <h2 class="text-md-start text-center">Ваш маршрут под контролем в реальном времени</h2>
+            <div class="icon-text d-flex align-items-center justify-content-md-start justify-content-center mt-3 mb-4">
+                <svg width="45" height="45" viewBox="0 0 66 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="32.8834" cy="32.7897" r="32.1886" fill="#242EF0"/>
+                  <path d="M35.5657 44.8604H30.2009M40.9305 27.4249C40.9305 25.2907 40.0827 23.2438 38.5735 21.7347C37.0644 20.2256 35.0176 19.3777 32.8833 19.3777C30.7491 19.3777 28.7023 20.2256 27.1931 21.7347C25.684 23.2438 24.8362 25.2907 24.8362 27.4249C24.8362 31.5694 23.7907 34.4071 22.6228 36.284C21.6376 37.8673 21.145 38.6589 21.1631 38.8797C21.1831 39.1242 21.2349 39.2175 21.4319 39.3636C21.6099 39.4956 22.4121 39.4956 24.0165 39.4956H41.7501C43.3546 39.4956 44.1568 39.4956 44.3347 39.3636C44.5318 39.2175 44.5836 39.1242 44.6036 38.8797C44.6216 38.6589 44.1291 37.8673 43.1439 36.284C41.976 34.4071 40.9305 31.5694 40.9305 27.4249Z" stroke="white" stroke-width="2.68239" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <h3 class="ms-3">PUSH-УВЕДОМЛЕНИЯ</h3>
+            </div>
+            <p class="text-start">С функцией Live Tracking в приложении ASTRA вы можете отслеживать местоположение вашего такси в реальном времени. Это позволяет вам быть в курсе, где находится ваш водитель и сколько времени осталось до прибытия, обеспечивая максимальное удобство и контроль над вашей поездкой.</p>
+          </div>
+          <div class="col-12 col-md-6 order-2 order-md-2 text-center">
+            <img src="../public/images/tracking.png" class="img-fluid tracking-map" alt="Car Interior">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="speed-security">
+      <div class="container mt-5">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 order-2 order-md-1 text-center">
+            <img src="../public/images/car.png" class="img-fluid car" alt="Car Interior">
+          </div>
+          <div class="col-12 col-md-6 order-1 order-md-2">
+            <h4 class="text-md-start text-center">Скорость безопасности: ваша поездка - наш приоритет! </h4>
+            <h2 class="text-md-start text-center">Присоединяйтесь к нам сегодня и Путешествуйте без лишних затрат!</h2>
+            <div class="icon-text d-flex align-items-center justify-content-md-start mt-3">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15.0945 1.36475L13.349 8.34698C13.0084 9.70944 12.8381 10.3907 12.4834 10.945C12.1696 11.4353 11.7532 11.8517 11.2629 12.1655C10.7085 12.5202 10.0273 12.6905 8.66485 13.0311L1.68262 14.7767L8.66485 16.5222C10.0273 16.8628 10.7085 17.0332 11.2629 17.3879C11.7532 17.7016 12.1696 18.118 12.4834 18.6083C12.8381 19.1627 13.0084 19.8439 13.349 21.2064L15.0945 28.1886L16.8401 21.2064C17.1807 19.8439 17.351 19.1627 17.7057 18.6083C18.0195 18.118 18.4359 17.7016 18.9262 17.3879C19.4805 17.0332 20.1618 16.8628 21.5242 16.5222L28.5065 14.7767L21.5242 13.0311C20.1618 12.6905 19.4805 12.5202 18.9262 12.1655C18.4359 11.8517 18.0195 11.4353 17.7057 10.945C17.351 10.3907 17.1807 9.70944 16.8401 8.34698L15.0945 1.36475Z" stroke="#242EF0" stroke-width="2.68239" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                
+                <h3 class="ms-3">Отправка посылок</h3>
+            </div>
+            <p>В дополнение к нашим услугам такси, мы также предлагаем возможность отправки и получения посылок. Наша система позволяет клиентам легко отправлять и отслеживать посылки прямо через наше приложение.</p>
+            <div class="icon-text d-flex align-items-center justify-content-md-start mt-3">
+                <svg width="28" height="30" viewBox="0 0 28 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14.0942 2.35301V15.0943M14.0942 15.0943L25.4943 8.76084M14.0942 15.0943L2.69403 8.76084M14.0942 15.0943V27.8357M25.4943 21.4277L15.1363 15.6733C14.756 15.462 14.5658 15.3563 14.3644 15.3149C14.1861 15.2782 14.0022 15.2782 13.824 15.3149C13.6226 15.3563 13.4324 15.462 13.052 15.6733L2.69403 21.4278M26.1649 20.5376V9.65103C26.1649 9.19148 26.1649 8.96171 26.0972 8.75678C26.0373 8.57548 25.9394 8.40906 25.81 8.26865C25.6637 8.10994 25.4629 7.99835 25.0611 7.77517L15.1363 2.26138C14.756 2.05007 14.5658 1.94441 14.3644 1.90298C14.1861 1.86632 14.0022 1.86632 13.824 1.90298C13.6226 1.94441 13.4324 2.05007 13.052 2.26138L3.1272 7.77518C2.72548 7.99835 2.52462 8.10994 2.37836 8.26866C2.24897 8.40906 2.15105 8.57548 2.09115 8.75678C2.02344 8.96171 2.02344 9.19149 2.02344 9.65104V20.5376C2.02344 20.9972 2.02344 21.227 2.09115 21.4319C2.15105 21.6132 2.24897 21.7796 2.37836 21.92C2.52462 22.0787 2.72548 22.1903 3.1272 22.4135L13.052 27.9273C13.4324 28.1386 13.6226 28.2443 13.824 28.2857C14.0022 28.3224 14.1861 28.3224 14.3644 28.2857C14.5658 28.2443 14.756 28.1386 15.1363 27.9273L25.0611 22.4135C25.4629 22.1903 25.6637 22.0787 25.81 21.92C25.9394 21.7796 26.0373 21.6132 26.0972 21.4319C26.1649 21.227 26.1649 20.9972 26.1649 20.5376Z" stroke="#242EF0" stroke-width="2.68239" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <h3 class="ms-3">Станция технического обслуживания</h3>
+            </div>
+            <p>Для обеспечения безопасных и комфортных поездок необходимо, чтобы автомобили наших водителей находились в идеальном техническом состоянии.</p>
+            <div class="icon-text d-flex align-items-center justify-content-md-start mt-3">
+                <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M19.2769 15.1516H6.30324M6.30324 15.1516V2.17788M6.30324 15.1516L1.63272 19.8221M1.63272 6.84841H14.6064M14.6064 6.84841V19.8221M14.6064 6.84841L19.2769 2.17788M19.7959 14.4637V2.48925C19.7959 2.19861 19.7959 2.05329 19.7393 1.94229C19.6896 1.84464 19.6102 1.76525 19.5125 1.7155C19.4015 1.65894 19.2562 1.65894 18.9656 1.65894H6.9911C6.73724 1.65894 6.61031 1.65894 6.49086 1.68761C6.38496 1.71304 6.28372 1.75497 6.19085 1.81188C6.08611 1.87606 5.99636 1.96582 5.81686 2.14532L1.60016 6.36202C1.42065 6.54153 1.3309 6.63128 1.26671 6.73602C1.20981 6.82888 1.16787 6.93012 1.14245 7.03603C1.11377 7.15548 1.11377 7.28241 1.11377 7.53627V19.5107C1.11377 19.8014 1.11377 19.9467 1.17033 20.0577C1.22008 20.1553 1.29947 20.2347 1.39712 20.2845C1.50813 20.341 1.65345 20.341 1.94409 20.341H13.9185C14.1724 20.341 14.2993 20.341 14.4188 20.3124C14.5247 20.2869 14.6259 20.245 14.7188 20.1881C14.8235 20.1239 14.9133 20.0342 15.0928 19.8547L19.3095 15.638C19.489 15.4584 19.5787 15.3687 19.6429 15.264C19.6998 15.1711 19.7418 15.0699 19.7672 14.9639C19.7959 14.8445 19.7959 14.7176 19.7959 14.4637Z" stroke="#242EF0" stroke-width="2.07579" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <h3 class="ms-3">Бонусная система</h3>
+            </div>
+            <p>Программа лояльности позволяет клиентам получать бонусы и скидки за каждую поездку, а также специальные предложения и привилегии.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="how-crypto-works" id="howCryptoWorks">
+      <div class="container mt-5">
+        <h1 class="title text-center fw-bold">Как работает <br> система криптовалют?</h1>
+        <div class="row align-items-center">
+          <div class="col-12 col-md-5 order-1 order-md-1 text-center">
+            <img src="../public/images/crypto-img.png" class="img-fluid car" alt="Car Interior">
+          </div>
+          <div class="col-12 col-md-6 order-2 order-md-2">
+            <h2 class="text-md-start text-center">Где и как вы можете потратить <br> свои коины?</h2>
+            <p class="text-md-start text-center">ASTRA предлагает своим клиентам уникальную систему криптовалюта, которая позволяет накапливать бонусы за каждую поездку. Клиенты могут использовать криптовалюты для получения скидок на будущие поездки, а также для получения доступа к эксклюзивным предложениям и акциям. Накапливайте криптовалюты с ASTRA и получайте больше выгодных возможностей при каждом путешествии!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="road-maps" id="roadmap">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12">
+              <h1 class="text-center mb-4 fw-bold">ДОРОЖНАЯ КАРТА</h1>
+          </div>
+        </div>
+        <div class="row cards text-center justify-content-center">
+          <div class="first col-sm-12 col-md-6 col-lg-5 mb-4">
+              <h3 class="mt-3 fw-bold">Запуск и Первоначальный Пост</h3>
+              <ul>
+                  <li>Разработка и запуск основных функций приложения: заказ такси, оплата, отслеживание поездки.</li>
+                  <li>Привлечение первых пользователей через маркетинговые кампании и рекламу.</li>
+                  <li>Оценка обратной связи от пользователей для улучшения пользовательского опыта и исправления ошибок.</li>
+              </ul>
+          </div>
+          <div class="second col-sm-12 col-md-6 col-lg-5 mb-4">
+            <h3 class="mt-3 fw-bold">Масштабирование и Глобальное Присутствие</h3>
+            <ul>
+                <li>Расширение географического охвата: запуск приложения в новых городах и странах.</li>
+                <li>Интеграция дополнительных методов оплаты для удобства пользователей.</li>
+                <li>Развитие системы коинов и программы лояльности для максимальной привлекательности и удовлетворения клиентов.</li>
+            </ul>
+        </div>
+          <div class="third col-sm-12 col-md-6 col-lg-5 mb-4">
+              <h3 class="mt-3 fw-bold">Расширение функционала и Улучшение Экспериенса</h3>
+              <ul>
+                  <li>Добавление новых функций, таких как отправка и получение посылок, программы лояльности и бонусных систем.</li>
+                  <li>Оптимизация интерфейса приложения для улучшения удобства использования.</li>
+                  <li>Внедрение функции обратной связи для водителей и клиентов для улучшения качества обслуживания.</li>
+              </ul>
+          </div>
+          <div class="fourth col-sm-12 col-md-6 col-lg-5 mb-4">
+              <h3 class="mt-3 fw-bold">Инновации и Партнерства</h3>
+              <ul>
+                  <li>Исследование и внедрение новых технологий, таких как автономные транспортные средства или умные решения для улучшения безопасности и эффективности поездок.</li>
+                  <li>Партнерство с другими компаниями и сервисами для расширения возможностей и предложений для пользователей ASTRA.</li>
+                  <li>Постоянное обновление и адаптация приложения в соответствии с изменяющимися потребностями и требованиями пользователей.</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="download-app">
+      <div class="container p-5 mt-5 d-flex justify-content-center">
+        <div class="row text-white">
+          <div class="col-12 mb-4 d-flex align-items-center">
+              <div>
+                <h1 class="mb-4">ГОТОВЫ К ПОЕЗДКЕ?</h1>
+                <p class="mb-4">Устанавливайте сейчас и начните зарабатывать коины!</p>
+                <button class="fw-bold">DOWNLOAD APP</button>
+              </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <img src="../public/images/download-iphones.png" alt="Phone Display 1" class="download-images">
+            </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer py-3">
+      <div class="container mt-5">
+          <div class="row">
+              <div class="col-md-3">
+                  <h5>
+                    <svg width="23" height="30" viewBox="0 0 30 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.95 38.2505C14.95 38.2505 16.4654 35.9182 17.1595 34.3038C17.801 32.8117 18.4183 30.3571 18.4183 30.3571C18.4183 30.3571 16.3635 32.5569 14.9499 32.5569C13.5364 32.5569 11.4817 30.3571 11.4817 30.3571C11.4817 30.3571 12.1617 32.806 12.8094 34.3038C13.5023 35.9061 14.95 38.2505 14.95 38.2505Z" fill="#060817"/>
+                      <path d="M14.9438 0.697643C14.9438 0.697643 21.4734 10.6326 24.4639 17.5095C27.228 23.8655 29.8877 34.3213 29.8877 34.3213C29.8877 34.3213 21.0343 24.9507 14.9436 24.9508C8.85307 24.9508 0 34.3213 0 34.3213C0 34.3213 2.92995 23.8895 5.72071 17.5095C8.70636 10.6839 14.9438 0.697643 14.9438 0.697643Z" fill="#060817"/>
+                    </svg>
+                    Astra
+                  </h5>
+                  <p class="fw-bold contact">
+                    <svg width="23" height="25" viewBox="0 0 28 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M20.7192 0.615234C22.5177 0.615234 24.2479 1.32607 25.5207 2.60154C26.7948 3.87433 27.507 5.59106 27.507 7.38826V17.9837C27.507 21.7256 24.4625 24.7567 20.7192 24.7567H7.46954C3.72627 24.7567 0.683105 21.7256 0.683105 17.9837V7.38826C0.683105 3.64633 3.71286 0.615234 7.46954 0.615234H20.7192ZM22.2361 7.58944C21.9544 7.57468 21.6862 7.66991 21.4837 7.85768L15.4362 12.686C14.6583 13.3311 13.5438 13.3311 12.7538 12.686L6.71847 7.85768C6.30136 7.5492 5.72465 7.58944 5.37728 7.95156C5.01516 8.31368 4.97492 8.89039 5.28205 9.29275L5.45775 9.46711L11.5602 14.2283C12.3112 14.8185 13.2219 15.1404 14.1755 15.1404C15.1264 15.1404 16.0532 14.8185 16.8029 14.2283L22.853 9.38663L22.9603 9.27934C23.2809 8.89039 23.2809 8.32709 22.9456 7.93815C22.7591 7.73831 22.503 7.61626 22.2361 7.58944Z" fill="#242EF0"/>
+                    </svg>
+                    <span>astra@gmail.com</span>
+                  </p>
+                  <p class="fw-bold contact">
+                    <svg width="23" height="23" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M12.4663 13.6493C17.8165 18.9979 19.0302 12.8102 22.4366 16.2142C25.7207 19.4974 27.6082 20.1552 23.4473 24.3149C22.9262 24.7338 19.6147 29.773 7.97718 18.1387C-3.6618 6.50291 1.37446 3.18808 1.79343 2.66703C5.9644 -1.50421 6.61085 0.394294 9.89493 3.67746C13.3014 7.08297 7.1162 8.30067 12.4663 13.6493Z" fill="#242EF0"/>
+                    </svg>
+                    <span>+1 234 456 678 89</span>
+                  </p>
+              </div>
+              <div class="col-md-3">
+                  <h5>Ссылки</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#">Главная</a></li>
+                      <li><a href="#advantagesSection">Преимущества</a></li>
+                      <li><a href="#howCryptoWorks">Как зарабатывать?</a></li>
+                      <li><a href="#">FAQ</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-3">
+                  <h5>Политика</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#">Условия использования</a></li>
+                      <li><a href="#">Политика конфиденциальности</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-3">
+                  <h5>Новости</h5>
+                  <p class="fw-bold">Будьте в курсе наших новостей!</p>
+                  <form>
+                      <div class="input-group mb-3">
+                          <input type="email" class="form-control" placeholder="EMAIL" aria-label="Recipient's email">
+                          <button class="subscribe-btn" type="submit">ПОДПИСАТЬСЯ</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+          <div class="copyright text-center mt-4">
+              <p class="m-0 fw-bold">COPYRIGHT © 2024 ASTRA.COM ВСЕ ПРАВА ЗАЩИЩЕНЫ.</p>
+          </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

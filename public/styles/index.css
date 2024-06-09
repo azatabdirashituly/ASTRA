@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Wix+Madefor+Display:wght@400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+    font-family: "Wix Madefor Display", sans-serif;
+}
+
+/* Navbar */
+.container-fluid {
+    display: flex;
+}
+.navbar-collapse {
+    width: 100%; 
+}
+.navbar .logo {
+    margin-left: 20px;
+}
+.navbar .navbar-toggler {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    border: none;
+    transition: background-color 0.5s ease;
+}
+.navbar .navbar-toggler:hover {
+    background-color: #d3d2d2;
+}
+.navbar .navbar-toggler:focus {
+    background-color: #e2e2e2;
+    border: none;
+}
+.navbar a {
+    color: #000;
+}
+.navbar-btn {
+    font-size: 13px;
+    padding: 13px 19px;
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+.navbar-btn.for-investors {
+    background-color: #fff;
+    color: blue;
+    margin-right: 25px;
+    transition: 0.4s ease;
+}
+.navbar-btn.for-investors:hover {
+    background-color: blue;
+    color: #fff;
+}
+.navbar-btn.download {
+    background-color: blue;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+/* MAIN */
+.main {
+    height: calc(100vh - 180px);
+}
+.main h1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.main p {
+    color: #555;
+}
+.img-block {
+    max-width: 345px;
+}
+.navbar-btn.letsgo {
+    background-color: blue;
+    color: #fff;
+}
+.road-line {
+    background: url('../images/road-line.png');
+    height: 100px;
+    background-position: center center;
+}
+
+
+/* comfort-and-security-section  */
+.comfort-and-security-section {
+    height: 85vh;
+}
+.comfort-and-security-section h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.comfort-and-security-section h4,
+.tracking-section h4,
+.speed-security h4 {
+    color: #242EF0;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+.comfort-and-security-section h2,
+.comfort-and-security-section h3,
+.tracking-section h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+}
+.comfort-and-security-section p {
+    color: #555;
+}
+.img-fluid.car {
+    max-height: 500px;
+}
+
+
+/* tracking-section */
+.tracking-section {
+    height: 70vh;
+}
+.tracking-map {
+    height: 500px;
+}
+.tracking-section h2,
+.speed-security h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 35px;
+}
+.tracking-section p {
+    color: #555;
+}
+
+
+/* speed-security section */
+.speed-security h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.speed-security p {
+    color: #555;
+}
+
+
+/* How crypto works section */
+.how-crypto-works {
+    height: 85vh;
+    margin-top: 70px;
+}
+
+
+/* Road maps section */
+.road-maps .cards .first,
+.road-maps .cards .fourth {
+    background-color: #242EF0;
+}
+.road-maps .cards .first h3,
+.road-maps .cards .first ul li,
+.road-maps .cards .fourth h3,
+.road-maps .cards .fourth ul li {
+    color: #fff;
+}
+.road-maps .row.cards ul {
+    margin-top: 20px;
+}
+.road-maps .row.cards li {
+    list-style: decimal;
+    text-align: left;
+}
+.road-maps .cards div {
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+/* DOWNLOAD APP SECTION */
+.download-app .container {
+    background-color: #242EF0;
+    border-radius: 15px;
+}
+.download-images {
+    max-height: 390px;  
+    width: auto;       
+    max-width: 100%;
+    height: auto;
+}
+.download-app .container button {
+    font-size: 13px;
+    padding: 13px 19px;
+    border: 1px solid blue;
+    border-radius: 3px;
+    color: #000;
+}
+/* FOOTER */
+footer a {
+    text-decoration: none;
+}
+footer svg {
+    margin-right: 15px;
+}
+footer .subscribe-btn {
+    font-size: 13px;
+    padding: 13px 19px;
+    border: 1px solid blue;
+    border-radius: 3px;
+    background-color: blue;
+    color: #fff;
+}
+footer h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+footer {}
+footer .copyright {
+    padding: 20px 0;
+    border-top: 2px solid #a6a6a6;
+}
+footer .copyright p {
+    font-size: 10px;
+}
+/* Media queries */
+@media (max-width: 991px) {
+    .tracking-map {
+        height: 400px;
+    }
+    footer .contact svg,
+    footer .contact span {
+        width: 100%;
+    }
+    footer .contact {
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {
+    .navbar .logo img {
+        width: 80px;
+        height: 65px;
+        margin-left: 270px;
+    }
+    .main {
+        height: 650px;
+    }
+    section .col-md-5.images {
+        display: flex;
+        justify-content: center;
+    }
+    section .col-md-5.images img {
+        height: 333px;
+        width: auto;
+        bottom: -400px;
+        right: 40px;
+    }
+    .road-line {
+        height: 75px;
+    }
+    .col-md-7.intro-texts {
+        text-align: center;
+    }
+    .comfort-and-security-section {
+        height: calc(100vh + 350px);
+    }
+    .tracking-section {
+        height: calc(100vh + 350px);
+    }
+    .tracking-map {
+        height: 550px;
+    }
+    .how-crypto-works {
+        height: calc(100vh + 200px);
+        margin-top: 70px;
+    }
+    .road-maps .cards .first,
+    .road-maps .cards .third {
+        background-color: #242EF0;
+    }
+    .road-maps .cards .fourth {
+        background-color: #fff;
+    }
+    .road-maps .cards .first h3,
+    .road-maps .cards .first ul li,
+    .road-maps .cards .third h3,
+    .road-maps .cards .third ul li {
+        color: #fff;
+    }
+    .road-maps .cards .fourth h3,
+    .road-maps .cards .fourth ul li {
+        color: #000;
+    }
+    footer h5,
+    footer p,
+    footer ul,
+    footer a {
+        text-align: center;
+    }
+    
+}
+@media (max-width: 600px) {
+    .navbar .logo img {
+        width: 80px;
+        height: 65px;
+        margin-left: 190px;
+    }
+    .comfort-and-security-section {
+        height: calc(100vh + 300px);
+    }
+    .tracking-section {
+        height: calc(100vh + 350px);
+    }
+}
+@media (max-width: 434px) {
+    .navbar .logo img {
+        width: 80px;
+        height: 65px;
+        margin-left: 120px;
+    }
+    .comfort-and-security-section {
+        height: calc(100vh + 300px);
+    }
+    .tracking-section {
+        height: calc(100vh + 275px);
+    }
+    .tracking-map {
+        height: 450px;
+    }
+}
